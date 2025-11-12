@@ -4,13 +4,12 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/VipIngesoft2Propio/",
+  build: {
+    outDir: "dist", // 👈 asegúrate de no tener "../frontend/dist"
+  },
   server: {
     port: 5173,
     strictPort: true,
-  },
-  build: {
-    outDir: "../frontend/dist",
-    //outDir: "dist",
   },
   test: {
     globals: true,
