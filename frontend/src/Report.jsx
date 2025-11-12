@@ -14,7 +14,7 @@ import "./Report.css";
 import Header from "./Header";
 import { useAuth } from "./context/context.jsx";
 import * as turf from "@turf/turf";
-import mapData from "./assets/map.json";
+import mapData from "./assets1/map.json";
 
 const customIcon = new L.Icon({
   iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",

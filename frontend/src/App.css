@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .background {
-  background-image: url("./assets/Edificio_de_Medicina.jpg");
+  background-image: url("./assets1/Edificio_de_Medicina.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;

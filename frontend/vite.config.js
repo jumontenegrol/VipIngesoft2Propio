@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/VipIngesoft2Propio/',
   plugins: [react()],
   build: {
-    outDir: "dist", // 👈 asegúrate de no tener "../frontend/dist"
+    outDir: "dist", 
   },
   server: {
     port: 5173,
