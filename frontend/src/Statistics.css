@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.go-front {
+  z-index: 4000 !important;
+}
+
+.Statistics-container {
+  background-color: #79438c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Statistics-content {
+  background-color: #9d6baa;
+  margin: 2rem auto;
+  padding: 2.5rem 3rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+/* Títulos */
+.Statistics-form-title {
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+  color: white;
+  text-align: center;
+}
+
+.Statistics-form-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+.tabla-container {
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+.tabla-incidentes {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background-color: #a26eb7;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tabla-incidentes thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #8d52a0;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  border: 1px solid #b98ed2;
+}
+
+.tabla-incidentes td {
+  padding: 0.8rem;
+  border: 1px solid #b98ed2;
+  text-align: left;
+  word-wrap: break-word;
+  max-width: 180px;
+}
+
+.tabla-incidentes tbody tr:nth-child(even) {
+  background-color: #9d6baa;
+}
+
+.tabla-incidentes tbody tr:nth-child(odd) {
+  background-color: #a873c0;
+}
+
+.tabla-incidentes tbody tr:hover {
+  background-color: #b582ce;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin: 1rem 0;
+}

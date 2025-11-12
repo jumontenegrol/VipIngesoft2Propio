@@ -1,0 +1,81 @@
+@import "leaflet/dist/leaflet.css";
+
+* {
+  box-sizing: border-box;
+}
+.background {
+  background-image: url("./assets/Edificio_de_Medicina.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.header {
+  background-color: rgba(128, 0, 128, 0.5);
+  color: white;
+  width: 100%;
+  text-align: right;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.login-box {
+  background-color: rgba(128, 0, 128, 0.5);
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box h1 {
+  margin-bottom: 0.5rem;
+}
+
+.login-box p {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.login-box input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-box button {
+  background-color: #4b1959;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.secondary {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.separator {
+  margin: 0.5rem 0;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
